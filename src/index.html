@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Newjeans electron</title>
+    <link rel="stylesheet" href="./globals.css">
+  </head>
+  <body>
+    <div id="player">
+        <!--BG-->
+        <div class="bg">
+            <img id="bg-wrap" src="../assets/background-bunnies.jpg" alt="bg-wrap">
+
+        <div id="content">
+            <div id="logo">
+                <img src="../assets/logo.png" height="150px" width="250px">
+            </div>
+
+            <img id="album-art" src="../assets/newjeans-getup-cover.webp" alt="Album Art">
+
+            <div id="song-container">
+                <div id="song-title">Get Up! It's mf ETA!!</div>
+        
+                <audio id="audio" src="../assets/music/NewJeans (뉴진스) - ETA (Audio).mp3"></audio>
+                <div id="controls">
+                <button id="prev">⏮️</button>
+                <button id="play-pause">▶️</button>
+                <button id="next">⏭️</button>
+                </div>
+
+            
+                <div id="time-info">
+                <span id="current-time">0:00</span> / <span id="duration">3:45</span>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </div>
+    <footer>
+        created by chrisfoong loves njz &lt;3
+    </footer>
+  </body>
+  
+</html>
