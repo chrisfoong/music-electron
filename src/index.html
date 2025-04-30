@@ -2,52 +2,46 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
     <title>Newjeans electron</title>
     <link rel="stylesheet" href="./globals.css">
   </head>
   <body>
+    <script src="../renderer.js"></script>
     <div id="player">
-        <!--BG-->
         <div class="bg">
+        <!--BG-->
             <img id="bg-wrap" src="../assets/background-bunnies.jpg" alt="bg-wrap">
+        <!--BG-->
 
         <div id="content">
             <div id="logo">
                 <img src="../assets/logo.png" height="150px" width="250px">
             </div>
 
-            <img id="album-art" src="../assets/newjeans-getup-cover.webp" alt="Album Art">
+            <img id="album-art" src="../assets/newjeans-getup-gif.gif" alt="Album Art">
 
             <div id="song-container">
-                <div id="song-title">Get Up! It's mf ETA!!</div>
-        
-                <audio id="audio" src="../assets/music/NewJeans (뉴진스) - ETA (Audio).mp3"></audio>
+                <div id="song-title"></div>
+                <audio id="audio" src=""></audio>
+                <input type="range" id="seek-bar" value="0" max="100">
                 <div id="controls">
-                <button id="prev">⏮️</button>
-                <button id="play-pause">▶️</button>
-                <button id="next">⏭️</button>
+                    <button id="prev" type="button">⏮️</button>
+                    <button id="play-pause" type="button">▶️</button>
+                    <button id="next" type="button">⏭️</button>
                 </div>
-
             
                 <div id="time-info">
                 <span id="current-time">0:00</span> / <span id="duration">3:45</span>
                 </div>
-
             </div>
         </div>
         </div>
     </div>
+
     <footer>
         created by chrisfoong loves njz &lt;3
     </footer>
   </body>
-  
 </html>
