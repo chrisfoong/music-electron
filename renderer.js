@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     const songs = [
-      { title: "Newjeans - ETA", file: "../assets/music/newjeans-eta.mp3" },
-      { title: "Newjeans - OMG", file: "../assets/music/newjeans-omg.mp3" }
+      { title: "NewJeans - ETA", file: "../assets/music/newjeans-eta.mp3" },
+      { title: "NewJeans - OMG", file: "../assets/music/newjeans-omg.mp3" },
+      { title: "NewJeans - New Jeans", file: "../assets/music/newjeans-newjeans.mp3" },
     ];
   
     let currentSongIndex = 0;

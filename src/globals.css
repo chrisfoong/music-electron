@@ -45,6 +45,7 @@ body {
 }
 
 #song-container {
+    padding: 10px;
     gap: 5px;
     display: flex;
     flex-direction: column;
@@ -61,6 +62,12 @@ body {
 
 #song-title {
     font-size: larger;
+}
+
+#time-info {
+    display: flex;
+    margin-top: 25px;
+    gap: 110px;
 }
 
 #bunny-thumb {
